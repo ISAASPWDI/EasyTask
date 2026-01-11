@@ -4,6 +4,7 @@ import { HeaderComponent } from './header/header.component';
 import { UserComponent } from './user/user.component';
 import { DUMMY_USERS } from './dummy-users';
 import { TaskComponent } from './task/task.component';
+import { NewTask } from "./task/new-task/new-task";
 
 @Component({
   selector: 'app-root',
@@ -13,7 +14,8 @@ import { TaskComponent } from './task/task.component';
 })
 export class App {
   users = DUMMY_USERS;
-  selectUser = this.users[0].id;
+  selectUser?: string;
+  newTask!: string;
 
   onSelectUser(id: string){
     console.log("hola : " + id);
