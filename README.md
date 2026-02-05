@@ -1,59 +1,111 @@
-# FirstAngularApp
+# EasyTask
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.10.
+**Enterprise-level task management without friction**
 
-## Development server
+EasyTask es una aplicación de gestión de tareas construida con Angular que permite administrar tareas de múltiples usuarios de manera eficiente y elegante.
 
-To start a local development server, run:
+## 📸 Capturas de pantalla
 
+### Pantalla principal
+![Vista principal](src/assets/app-images/index.png)
+*Interfaz principal mostrando las tareas de Jasmine Washington*
+
+### Gestión de usuarios
+![Gestión de usuarios](src/assets/app-images/users.png)
+*Vista de tareas por usuario - Marcus Johnson*
+
+### Agregar nueva tarea
+![Agregar tarea](src/assets/app-images/add-task.png)
+*Modal para crear nuevas tareas con título, resumen y fecha de vencimiento*
+
+## 🚀 Características
+
+- ✅ Gestión de tareas por usuario
+- 📅 Asignación de fechas de vencimiento
+- 👥 Múltiples perfiles de usuario
+- 🎨 Interfaz moderna con gradientes púrpura
+- ✨ Diseño responsive y amigable
+
+## 🛠️ Tecnologías
+
+- Angular CLI version 20.3.10
+- TypeScript
+- CSS3
+
+## 📦 Instalación
+
+1. Clona el repositorio:
+```bash
+git clone <url-del-repositorio>
+cd EasyTask
+```
+
+2. Instala las dependencias:
+```bash
+npm install
+```
+
+## 💻 Desarrollo
+
+Para iniciar el servidor de desarrollo, ejecuta:
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Navega a `http://localhost:4200/`. La aplicación se recargará automáticamente cuando modifiques cualquier archivo fuente.
 
-## Code scaffolding
+## 🏗️ Estructura del proyecto
+```
+EasyTask/
+├── src/
+│   ├── app/
+│   ├── assets/
+│   │   ├── app-images/
+│   │   │   ├── add-task.png
+│   │   │   ├── index.png
+│   │   │   └── users.png
+│   │   ├── task-management-logo.png
+│   │   └── users/
+│   ├── index.html
+│   ├── main.ts
+│   └── styles.css
+├── angular.json
+├── package.json
+└── README.md
+```
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🔧 Comandos útiles
 
+### Generar componentes
 ```bash
 ng generate component component-name
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
+### Construir para producción
 ```bash
 ng build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Los archivos compilados se almacenarán en el directorio `dist/`.
 
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
+### Ejecutar pruebas unitarias
 ```bash
 ng test
 ```
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
+### Ejecutar pruebas end-to-end
 ```bash
 ng e2e
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+## 📚 Recursos adicionales
 
-## Additional Resources
+Para más información sobre Angular CLI, visita la [documentación oficial de Angular CLI](https://angular.dev/tools/cli).
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 👨‍💻 Autor
+
+Desarrollado con ❤️ usando Angular
+
+## 📄 Licencia
+
+Este proyecto es de código abierto y está disponible bajo la licencia MIT.
