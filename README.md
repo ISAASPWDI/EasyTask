@@ -59,6 +59,17 @@ Navega a `http://localhost:4200/`. La aplicación se recargará automáticamente
 EasyTask/
 ├── src/
 │   ├── app/
+│   │   ├── header/
+│   │   ├── shared/
+│   │   ├── task/
+│   │   ├── user/
+│   │   ├── app.config.ts
+│   │   ├── app.css
+│   │   ├── app.html
+│   │   ├── app.routes.ts
+│   │   ├── app.spec.ts
+│   │   ├── app.ts
+│   │   └── dummy-users.ts
 │   ├── assets/
 │   │   ├── app-images/
 │   │   │   ├── add-task.png
@@ -71,6 +82,10 @@ EasyTask/
 │   └── styles.css
 ├── angular.json
 ├── package.json
+├── package-lock.json
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.spec.json
 └── README.md
 ```
 
